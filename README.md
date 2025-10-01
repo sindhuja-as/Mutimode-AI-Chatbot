@@ -6,7 +6,7 @@ This project is a **Streamlit-based multimode AI chatbot** that supports two mod
 
 ---
 
-## 🚀 Features
+## Features
 - Interactive chat UI built with **Streamlit**.
 - Mode switching between **Flow** and **RAG**.
 - **PDF ingestion** with text splitting using `langchain-text-splitters`.
@@ -17,24 +17,25 @@ This project is a **Streamlit-based multimode AI chatbot** that supports two mod
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
-├── app.py                 # Main Streamlit app
+├── chatbot.py                 # Main Streamlit app
 ├── requirements.txt       # Project dependencies
 ├── README.md              # Project documentation
+├── mars.pdf
 ├── chroma_db/             # Local vector database (auto-created by Chroma)
 └── .streamlit/
     └── secrets.toml       # API keys (not pushed to GitHub)
 ```
+## RAG Module document
+****mars.pdf***is the base document/sample dataset used by me
 
----
-
-## 🔑 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/your-username/multimode-ai-chatbot.git
-cd multimode-ai-chatbot
+git clone https://github.com/sindhuja-as/Mutimode-AI-Chatbot.git
+cd Mutimode-AI-Chatbot
 ```
 
 ### 2. Create Virtual Environment
