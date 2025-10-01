@@ -28,7 +28,7 @@ This project is a **Streamlit-based multimode AI chatbot** that supports two mod
     └── secrets.toml       # API keys (not pushed to GitHub)
 ```
 ## RAG Module document
-**mars.pdf**  is the base document/sample dataset used by me
+Sample Dataset: **mars.pdf**  is the base document/sample dataset used by RAg module
 
 ## Setup Instructions
 
