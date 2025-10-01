@@ -267,7 +267,7 @@ if new_mode != st.session_state.mode:
         }
         st.session_state.rag_messages.append({
             "role": "assistant",
-            "content": "RAG Mode is active. You can now ask questions about the planet Mars. For example: 'How are dust storms formed in Mars? or What is Borealis basin'"
+            "content": "RAG Mode is active. You can now ask questions about the planet Mars. For example: 'How are dust storms formed in Mars? or What is Borealis basin?'"
         })
 
 # Pick active history based on mode
@@ -296,5 +296,6 @@ if prompt := st.chat_input("Type your message..."):
 
         # Rerun so new messages display immediately
         st.rerun()
+
 
 
