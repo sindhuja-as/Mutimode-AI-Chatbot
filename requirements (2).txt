@@ -1,0 +1,7 @@
+streamlit
+google-generativeai
+chromadb
+sentence-transformers
+numpy
+langchain-text-splitters
+PyPDF2
