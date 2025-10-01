@@ -63,12 +63,11 @@ streamlit run app.py
 ```
 
 ---
-
-## ⚠️ Notes
+## Notes
 - Do **NOT** commit `.streamlit/secrets.toml` to GitHub.
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 - Support for more LLM providers (OpenAI, Anthropic, etc.).
 - Enhanced document handling (DOCX, TXT, multiple PDFs).
 - UI improvements with custom themes.
