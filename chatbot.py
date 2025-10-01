@@ -19,8 +19,9 @@ from PyPDF2 import PdfReader
 # 1. Get your API key from Google AI Studio: https://aistudio.google.com/app/apikey
 # 2. Set it as an environment variable named GOOGLE_API_KEY.
 # For Streamlit Community Cloud, you can set this in the app's secrets.
+# Create a folder .streamlit in your project folder and save your GOOGLE_API_KEY in a file named secrets.toml
 try:
-    # Local development: Use st.secrets if available, otherwise get from environment
+   
     if 'GOOGLE_API_KEY' in st.secrets:
         os.environ['GOOGLE_API_KEY'] = st.secrets['GOOGLE_API_KEY']
     genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
@@ -295,3 +296,4 @@ if prompt := st.chat_input("Type your message..."):
 
         # Rerun so new messages display immediately
         st.rerun()
+
