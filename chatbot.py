@@ -1,4 +1,4 @@
-# AI Chatbot Assignment with Streamlit
+# AI Chatbot Assignment with an UI using Streamlit
 # This single file contains the complete application for all three parts:
 # Part A: Flow-Based Chatbot
 # Part B: RAG (Retrieval-Augmented Generation) Chatbot
@@ -296,4 +296,5 @@ if prompt := st.chat_input("Type your message..."):
 
         # Rerun so new messages display immediately
         st.rerun()
+
 
